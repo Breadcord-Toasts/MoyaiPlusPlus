@@ -9,7 +9,7 @@ from breadcord.module import ModuleCog
 class MoyaiPlusPlus(breadcord.module.ModuleCog):
     def __init__(self, module_id: str):
         super().__init__(module_id)
-        self.module_settings = self.bot.settings.moyai_plus_plus
+        self.module_settings = self.bot.settings.get_child(module_id)
 
     @ModuleCog.listener()
     async def on_message(self, message: discord.Message):
