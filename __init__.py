@@ -12,7 +12,7 @@ class MoyaiPlusPlus(breadcord.module.ModuleCog):
         
     @ModuleCog.listener()
     async def on_message(self, message: discord.Message):
-        for reaction in selfsettings.reactions:
+        for reaction in self.settings.reactions:
             if re.findall(reaction.key, message.content.lower()):
                 try:
                     await message.add_reaction(reaction.value)
