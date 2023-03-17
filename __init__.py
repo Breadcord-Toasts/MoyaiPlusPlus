@@ -9,11 +9,10 @@ from breadcord.module import ModuleCog
 class MoyaiPlusPlus(breadcord.module.ModuleCog):
     def __init__(self, module_id: str):
         super().__init__(module_id)
-        self.module_settings = self.bot.settings.get_child(module_id)
-
+        
     @ModuleCog.listener()
     async def on_message(self, message: discord.Message):
-        for reaction in self.module_settings.reactions:
+        for reaction in selfsettings.reactions:
             if re.findall(reaction.key, message.content.lower()):
                 try:
                     await message.add_reaction(reaction.value)
