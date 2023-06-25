@@ -1,2 +1,6 @@
 # 🗿
-A breadcord module like [PeeblyWeeb/Breadcord-Moyai](https://github.com/PeeblyWeeb/Breadcord-Moyai), but better.
+🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿<br/>
+🗿🗿🗿🗿🗿🗿<br/>
+🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿
+## 🗿?
+A breadcord module that allows reacting to a message containing specified trxt with an emoji.
