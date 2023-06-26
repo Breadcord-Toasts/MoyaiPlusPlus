@@ -3,4 +3,4 @@
 🗿🗿🗿🗿🗿🗿<br/>
 🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿
 ## 🗿?
-A breadcord module that allows reacting to a message containing specified trxt with an emoji.
+A breadcord module that allows reacting to a message containing specified text with an emoji.
